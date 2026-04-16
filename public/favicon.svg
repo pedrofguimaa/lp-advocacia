@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Almeida e Ferraz Advocacia">
+  <defs>
+    <linearGradient id="bg" x1="0%" x2="100%" y1="0%" y2="100%">
+      <stop offset="0%" stop-color="#2b1d14" />
+      <stop offset="100%" stop-color="#120d09" />
+    </linearGradient>
+    <linearGradient id="gold" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" stop-color="#d9b074" />
+      <stop offset="100%" stop-color="#b98b4e" />
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#bg)" />
+  <rect x="8" y="8" width="48" height="48" rx="10" fill="none" stroke="url(#gold)" stroke-width="1.4" opacity="0.9" />
+  <text
+    x="32"
+    y="39"
+    text-anchor="middle"
+    font-family="Cormorant Garamond, Georgia, serif"
+    font-size="25"
+    fill="url(#gold)"
+    letter-spacing="1.2"
+  >
+    AF
+  </text>
+</svg>

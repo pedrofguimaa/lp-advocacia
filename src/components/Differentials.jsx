@@ -29,7 +29,7 @@ const features = [
 
 function Differentials() {
   return (
-    <section id="diferenciais" className="section-shell section-flow flow-dark bg-[#15100c] py-20 sm:py-24 md:py-28">
+    <section id="diferenciais" className="section-shell section-flow flow-dark bg-[#15100c] py-24 sm:py-24 md:py-28">
       <div className="section-bg-layer section-bg-dark">
         <img src={bg3} alt="" aria-hidden="true" loading="lazy" />
       </div>

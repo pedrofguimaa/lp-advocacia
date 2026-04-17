@@ -57,7 +57,7 @@ const areas = [
 
 function PracticeAreas() {
   return (
-    <section id="servicos" className="section-shell section-flow flow-light bg-[#efe4d4] py-20 sm:py-24 md:py-28 text-wood-900">
+    <section id="servicos" className="section-shell section-flow flow-light bg-[#efe4d4] py-24 sm:py-24 md:py-28 text-wood-900">
       <div className="section-bg-layer section-bg-light services-bg">
         <img src={bg2} alt="" aria-hidden="true" loading="lazy" />
       </div>
@@ -108,7 +108,7 @@ function PracticeAreas() {
                   <p className="mt-3 flex-1 text-[13px] leading-relaxed text-wood-700/90 sm:text-sm">{area.description}</p>
 
                   <div className="service-card-cta mt-4 inline-flex w-fit items-center gap-2 text-[11px] font-semibold uppercase tracking-[0.12em] text-wood-700/90 transition-colors duration-300 group-hover:text-gold-600 sm:mt-5 sm:text-xs sm:tracking-[0.14em]">
-                    Agendar atendimento
+                    Agendar no WhatsApp
                     <ArrowUpRight size={14} className="service-card-cta-icon transition-transform duration-300" />
                   </div>
                 </div>

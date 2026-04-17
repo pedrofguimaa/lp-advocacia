@@ -1,8 +1,13 @@
 ﻿import { ArrowUpRight } from "lucide-react";
+import bg3 from "../../assets/bgs/bg3.jpg";
 
 function FinalCTA() {
   return (
-    <section className="section-shell section-flow flow-dark bg-[#17120e] py-20 sm:py-24 md:py-28">
+    <section className="section-shell section-flow flow-dark bg-[#17120e] py-24 sm:py-24 md:py-28">
+      <div className="section-bg-layer section-bg-dark final-cta-bg">
+        <img src={bg3} alt="" aria-hidden="true" loading="lazy" />
+      </div>
+
       <div className="section-container relative z-10">
         <div className="section-anchor-line mx-auto" />
         <div className="reveal premium-panel rounded-sm border border-cream-100/15 px-5 py-9 text-center shadow-premium sm:px-8 sm:py-12 md:px-12 md:py-14">
@@ -21,9 +26,9 @@ function FinalCTA() {
               href="#contato"
               target="_blank"
               rel="noopener noreferrer"
-              className="cta-primary group inline-flex w-full items-center justify-center gap-2 rounded-full border border-gold-400/55 bg-gold-500 px-6 py-3 text-[11px] font-semibold uppercase tracking-[0.14em] text-wood-950 transition-transform duration-300 hover:-translate-y-0.5 sm:w-auto sm:px-8 sm:text-sm"
+              className="cta-primary group inline-flex w-full items-center justify-center gap-2 rounded-full border border-gold-400/55 bg-gold-500 px-6 py-3.5 text-xs font-semibold uppercase tracking-[0.14em] text-wood-950 transition-transform duration-300 hover:-translate-y-0.5 sm:w-auto sm:px-8 sm:text-sm"
             >
-              Agendar um atendimento
+              Agendar no WhatsApp
               <ArrowUpRight size={16} className="transition-transform duration-300 group-hover:translate-x-0.5" />
             </a>
           </div>

@@ -30,7 +30,7 @@ const professionals = [
 
 function ProfessionalsSection() {
   return (
-    <section className="section-shell section-flow flow-light no-bottom-fade bg-cream-50 py-20 sm:py-24 md:py-28 text-wood-900">
+    <section className="section-shell section-flow flow-light no-bottom-fade bg-cream-50 py-24 sm:py-24 md:py-28 text-wood-900">
       <div className="section-bg-layer section-bg-light professionals-bg">
         <img src={bg1} alt="" aria-hidden="true" loading="lazy" />
       </div>
@@ -49,7 +49,7 @@ function ProfessionalsSection() {
               key={person.name}
               className="reveal professional-card premium-card overflow-hidden rounded-sm border border-wood-700/14 bg-[#f8f2e8] shadow-soft"
             >
-              <div className="h-56 overflow-hidden sm:h-60">
+              <div className="h-44 overflow-hidden sm:h-52 md:h-60">
                 <img
                   src={person.image}
                   alt={person.name}
@@ -60,11 +60,11 @@ function ProfessionalsSection() {
 
               <div className="professional-card-body px-6 py-6">
                 <p className="professional-role text-[11px] uppercase tracking-[0.18em] text-wood-600">{person.practice}</p>
-                <h3 className="professional-name brand-serif mt-3 text-[1.95rem] leading-[0.98] text-wood-900 sm:text-[2.1rem] lg:text-[2.2rem]">
+                <h3 className="professional-name brand-serif mt-2.5 text-[1.9rem] leading-[0.98] text-wood-900 sm:mt-3 sm:text-[2.1rem] lg:text-[2.2rem]">
                   {person.name}
                 </h3>
                 <div className="professional-divider mt-4" />
-                <p className="professional-description mt-4 text-sm leading-[1.75] text-wood-700/90 sm:text-[15px] sm:leading-[1.8]">
+                <p className="professional-description mt-3 text-sm leading-[1.72] text-wood-700/90 sm:mt-4 sm:text-[15px] sm:leading-[1.8]">
                   {person.description}
                 </p>
               </div>

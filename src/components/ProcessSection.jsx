@@ -31,7 +31,7 @@ const steps = [
 
 function ProcessSection() {
   return (
-    <section id="processo" className="section-shell section-flow flow-light no-top-fade bg-cream-50 py-20 sm:py-24 md:py-28 text-wood-900">
+    <section id="processo" className="section-shell section-flow flow-light no-top-fade bg-cream-50 py-24 sm:py-24 md:py-28 text-wood-900">
       <div className="section-bg-layer section-bg-light">
         <img src={bg4} alt="" aria-hidden="true" loading="lazy" />
       </div>
